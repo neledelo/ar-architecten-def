@@ -1,0 +1,231 @@
+//_index.scss
+
+@import'projecten';
+@import'bureau';
+@import'contact';
+
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+$font: 'Montserrat', sans-serif;
+$font2:'Open Sans', sans-serif;
+
+/* COLORS */
+
+$grey:#EBEBEB;
+
+
+
+/*NAVIGATION*/
+
+.sticky-top{
+    position: sticky;
+}
+
+div.col-md-12.col-sm-6{
+    margin: 0px; 
+    padding:0px;
+}
+
+.bg-ar{
+    background-color: white;
+    padding-bottom: 20px;
+    position: relative;
+    
+
+    img{
+        width: 50%;
+        margin-top: 10%;
+        margin-left: -20px;   
+        z-index:-1;     
+
+        @media (min-width: 576px) {
+            width: 70%;
+            margin-top: 30px;
+        }
+
+        @media (min-width: 768px){
+            width: 25%;
+            margin-top: 5%;
+        }
+        @media (min-width: 992px){
+            width: 50%;
+            margin-top: 12%;
+        }
+        @media (min-width: 1200px){
+            width: 33%;
+            margin-top: 9%;
+        }
+    }
+
+    h1{
+        font-weight: 200;
+        font-size: 20px;
+
+    }
+
+    .navbar-toggler{
+     margin-top: -40px;
+     margin-left: 200px;
+     z-index:1;
+
+     @media (min-width: 375px) {
+        margin-left: 250px;
+
+    }
+
+     @media (min-width: 400px) {
+        margin-left: 300px;
+
+    }
+
+     @media (min-width: 500px) {
+        margin-left: 380px;
+
+    }
+    @media (min-width: 650px) {
+        margin-left: 440px;
+
+    }
+
+    @media (min-width: 768px) {
+        margin-left: 610px;
+
+    }
+
+        .collapse{
+            background-color: pink;
+        }
+    }
+
+    a{
+        font-family: $font2;
+        font-size: 16px;
+        font-weight: 100;
+        text-transform: uppercase;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+ 
+
+    .navbar-nav{
+        margin-top: 10%;
+    }
+}
+
+
+/*JUMBOTRON*/
+.header{
+    position: relative;
+
+    img{
+        width: 100%;
+        margin-top: 30px;
+
+
+    }
+
+    .main_txt{
+        background-color: white;
+        padding: 10px;
+        width: 33%;
+        margin-top: 0px;
+        position: absolute;
+        top: 30%;
+     
+
+        @media (min-width: 401px) {
+            width: 37%;
+        }
+
+        @media (min-width: 576px) {
+            width: 25%;
+            left: -5%;
+        }
+
+        @media (min-width: 768px){
+            width: 25%;
+            top: 20%;
+            padding: 15px;
+            left: -5%;
+
+        }
+        @media (min-width: 992px){
+            width: 18%;
+            left: -5%;
+         
+        }
+        @media (min-width: 1024px){
+            width: 18%;
+            left: -2%;
+         
+        }
+        @media (min-width: 1200px){
+            width: 20%;
+            top: 20%;
+            left: -5%;
+        }
+
+        h2{
+            font-family: $font2;
+            font-weight: 200;
+            font-size: 17px;
+            margin-bottom:0;
+    
+    
+            @media (min-width: 768px){
+            font-size: 25px;
+            }
+      
+            @media (min-width: 1200px){
+        
+            font-size: 27px;
+            padding: 10px;
+            }
+            
+        }
+    }
+}
+
+/*FOOTER*/
+
+.footer{
+    margin-bottom: 15px;
+    footer{
+        font-family: $font2;
+        font-weight: 100;
+        padding-top: 10px;
+        font-size: 10px;
+        background: transparent;
+
+        @media (min-width: 768px){
+            font-size: 12px;
+        }
+        @media (min-width: 1200px){
+            font-size: 14px;
+              }
+    }
+
+    h3{
+        font-family: $font2;
+        font-weight: 100;
+        padding-top: 5px;
+        font-size: 10px;
+        display: flex;
+        justify-content:flex-start;
+
+        @media (min-width: 768px){
+            justify-content:flex-end;
+            font-size: 12px;
+            padding-top: 10px;
+        }
+
+        @media (min-width: 1200px){
+          font-size: 14px;
+          padding-top: 10px;
+            }
+    }
+
+}

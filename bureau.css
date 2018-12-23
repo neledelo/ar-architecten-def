@@ -1,0 +1,122 @@
+/*FONTS*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+/* COLORS */
+/* OVER */
+.over {
+  margin-top: 40px;
+  /* FOOTER */
+}
+
+.over .overar {
+  background-color: #f1f1f1;
+  padding: 27px;
+}
+
+@media (min-width: 992px) {
+  .over .overar {
+    padding-top: 30px;
+  }
+}
+
+.over img {
+  width: 100%;
+}
+
+.over h1 {
+  font-family: "Open Sans", sans-serif;
+  text-transform: unset;
+  font-weight: 700;
+  margin-left: 15px;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+@media (min-width: 992px) {
+  .over h1 {
+    font-size: 33px;
+    margin-top: 0;
+  }
+}
+
+.over h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.over p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  width: 90%;
+  margin-left: 15px;
+}
+
+.over .diensten {
+  margin-top: 40px;
+}
+
+@media (min-width: 992px) {
+  .over .diensten {
+    margin-left: 15px;
+  }
+}
+
+.over .curriculum {
+  background-color: #f1f1f1;
+  padding: 27px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  margin-top: -65px;
+}
+
+.over .curriculum h1 {
+  margin-top: 0px;
+}
+
+@media (min-width: 992px) {
+  .over .curriculum {
+    margin-top: 40px;
+    height: 360px;
+  }
+}
+
+.over .fotocurriculum {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.over h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  padding-top: 5px;
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+@media (min-width: 992px) {
+  .over h3 {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    font-size: 12px;
+    padding-top: 10px;
+    margin-top: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .over h3 {
+    font-size: 14px;
+    padding-top: 10px;
+    margin-top: 290px;
+  }
+}
+/*# sourceMappingURL=bureau.css.map */

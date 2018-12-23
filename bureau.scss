@@ -1,0 +1,129 @@
+//_bureau.scss
+
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+$font: 'Montserrat', sans-serif;
+$font2:'Open Sans', sans-serif;
+
+/* COLORS */
+
+$grey:#EBEBEB;
+
+
+/* OVER */ 
+
+.over{
+margin-top: 40px;
+
+    .overar{
+        background-color: #f1f1f1;
+        padding: 27px;
+        @media (min-width: 992px){
+            padding-top: 30px;
+
+        }
+    }
+    img{
+        width: 100%;
+    }
+
+    h1{
+        font-family: $font2;
+        text-transform: unset;
+        font-weight: 700;
+        margin-left: 15px;
+        font-size: 30px;
+        margin-top: 0px;
+
+        @media (min-width: 992px){
+            font-size: 33px;
+            margin-top: 0;
+        }
+    }
+
+    h3{
+        font-family: $font2;
+        font-weight: 300;
+        margin-left: 15px;
+        font-size: 20px;
+
+
+    }
+
+    p{
+        font-family: $font2;
+        font-weight: 200;
+        font-size: 15px;
+        width: 90%;
+        margin-left: 15px;
+
+    }
+
+    .diensten {
+        margin-top: 40px;
+        
+        @media (min-width: 992px){
+            margin-left: 15px;
+
+        }
+    }
+
+    .curriculum{
+        background-color: #f1f1f1;
+        padding: 27px;
+        padding-top: 30px;
+        margin-bottom: 10px;
+        margin-top:-65px;
+        h1{
+            margin-top:0px;
+        }
+       
+
+        @media(min-width: 992px){
+            margin-top: 40px;
+            height: 360px;
+
+        }
+
+    }
+    
+    .fotocurriculum{
+        margin-top: 40px;
+        margin-bottom: 60px;
+
+        
+    }
+    
+
+
+
+/* FOOTER */ 
+
+
+
+    h3{
+        font-family: $font2;
+        font-weight: 100;
+        padding-top: 5px;
+        font-size: 10px;
+        display: flex;
+        justify-content:flex-start;
+
+        @media (min-width: 992px){
+            justify-content:flex-end;
+            font-size: 12px;
+            padding-top: 10px;
+            margin-top: 350px;
+        }
+
+        @media (min-width: 1200px){
+          font-size: 14px;
+          padding-top: 10px;
+          margin-top: 290px;
+
+            }
+    }
+
+}

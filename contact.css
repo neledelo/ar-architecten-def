@@ -1,0 +1,68 @@
+/*FONTS*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+/* COLORS */
+.contact {
+  margin-top: 20px;
+}
+
+.contact h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-left: 15px;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.contact p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  width: 90%;
+  margin-left: 15px;
+}
+
+.contact .contacteer {
+  margin-bottom: 70px;
+}
+
+.contact .contacteer h1 {
+  text-transform: unset;
+}
+
+.contact .contactgegevens {
+  margin-bottom: 70px;
+}
+
+.contact .tekstcontact {
+  margin-bottom: 50px;
+}
+
+.contact .tekstcontact a {
+  color: black;
+}
+
+.contact .tekstorde a {
+  color: black;
+}
+
+.contact .tekstcode a {
+  color: black;
+}
+
+.contact .socialmedia i {
+  color: black;
+  margin-left: 15px;
+  font-size: 25px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.mailto {
+  color: black;
+}
+
+.tel {
+  color: black;
+}
+/*# sourceMappingURL=contact.css.map */
